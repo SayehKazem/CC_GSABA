@@ -24,9 +24,16 @@ Regression Analysis: A regression model is applied to test for a region-specific
 # Citation
 If you use this project or its code in your research, please cite this repository. Your citation helps others discover the project and acknowledges our work.
 
+- **Paper:** Kuldeep Kumar, Sayeh Kazem et al. "Mirror effect of genomic deletions and duplications on cognitive ability across the human cerebral cortex." bioRxiv 2025.01.06.631492; 2025.
 
 # Repository Contents
 CC-GSBA script: This is the core pipeline for testing the association between CNVs aggregated in cortex-specific gene sets and cognitive ability. 
 
 # File Types
 Python Notebooks (*.ipynb): These notebooks contain the code for the main CC-GSBA pipeline. 
+
+# Usage
+1. Clone the repository:
+
+```bash
+git clone https://github.com/SayehKazem/CC_GSBA.git
