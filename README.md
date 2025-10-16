@@ -29,4 +29,4 @@ If you use this project or its code in your research, please cite this repositor
 CC-GSBA script: This is the core pipeline for testing the association between CNVs aggregated in cortex-specific gene sets and cognitive ability. 
 
 # File Types
-Python Notebooks (*.ipynb): These notebooks contain the code for the main CC-GSBA pipeline.
+Python Notebooks (*.ipynb): These notebooks contain the code for the main CC-GSBA pipeline. 
