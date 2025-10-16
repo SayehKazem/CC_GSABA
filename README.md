@@ -1,13 +1,13 @@
 # CC_GSABA
-The Cerebral Cortical Gene-Set Burden Analysis (CC-GSBA) pipeline, included in the PGC-CNV Package, is designed to investigate the impact of Copy Number Variants (CNVs) on Cognitive Ability using Cerebral Cortical Gene-Set Burden Analysis. This repository contains all the code and data required to reproduce the figures and statistical analyses for the project. 
+The Cerebral Cortical Gene-Set Burden Analysis (CC-GSBA) pipeline, part of the PGC-CNV working group, is designed to investigate the impact of Copy Number Variants (CNVs) on Cognitive Ability using Cerebral Cortical Gene-Set Burden Analysis. This repository contains all the code and data required to reproduce the figures and statistical analyses for the project. 
 <p align="center">
  <img src="/CC-GSBA_logo.png" alt="CC-GSBA_logo" width="300"/>
 </p>
 
-# Project Title
+## Project Title
 Mirror effect of genomic deletions and duplications on cognitive ability across the human ecerebral cortex
 
-# Project Workflow
+## Project Workflow
 This figure outlines our methodology for associating CNVs with cognitive ability by leveraging gene expression data across cortical regions. The analysis integrates genotypic and phenotypic data from large population cohorts with gene expression data from the Allen Human Brain Atlas (AHBA).
 
 - Gene Assignment: Each gene is mapped to cortical regions where it shows preferential expression (z-score > 0.5). This process is repeated for all genes, resulting in 180 distinct regional gene sets.
@@ -21,18 +21,20 @@ Regression Analysis: A regression model is applied to test for a region-specific
 </p>
 
 
-# Citation
+## Citation
 If you use this project or its code in your research, please cite this repository. Your citation helps others discover the project and acknowledges our work.
 
-- **Paper:** Kuldeep Kumar, Sayeh Kazem et al. "Mirror effect of genomic deletions and duplications on cognitive ability across the human cerebral cortex." bioRxiv 2025.01.06.631492; 2025.
+- **Paper:**
+1) Paper on core method: Kuldeep Kumar, Sayeh Kazem et al. "Mirror effect of genomic deletions and duplications on cognitive ability across the human cerebral cortex." bioRxiv 2025.01.06.631492; 2025.
+2) by Worrawat Engchuan : "Psychiatric disorders converge on common pathways but diverge in cellular context, spatial distribution, and directionality of genetic effects." medRxiv 2025.07.11.25331381; 2025.
 
-# Repository Contents
-CC-GSBA script: This is the core pipeline for testing the association between CNVs aggregated in cortex-specific gene sets and cognitive ability. 
+## Repository Contents
+The CC-GSBA script is the core pipeline for testing the association between CNVs (Copy Number Variations) aggregated in cortex-specific gene sets and cognitive ability.
 
-# File Types
-Python Notebooks (*.ipynb): These notebooks contain the code for the main CC-GSBA pipeline. 
+## File Types
+The main CC-GSBA pipeline is implemented in Python Notebooks ($*.ipynb$).
 
-# Usage
+## Usage
 1. Clone the repository:
 
 ```bash
