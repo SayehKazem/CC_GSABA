@@ -24,9 +24,9 @@ Regression Analysis: A regression model is applied to test for a region-specific
 ## Citation
 If you use this project or its code in your research, please cite this repository. Your citation helps others discover the project and acknowledges our work.
 
-- **Paper:**
+- **Papers:**
 1) Paper on core method: Kuldeep Kumar, Sayeh Kazem et al. "Mirror effect of genomic deletions and duplications on cognitive ability across the human cerebral cortex." bioRxiv 2025.01.06.631492; 2025.
-2) by Worrawat Engchuan : "Psychiatric disorders converge on common pathways but diverge in cellular context, spatial distribution, and directionality of genetic effects." medRxiv 2025.07.11.25331381; 2025.
+2) Paper on PGC-CNV application on 6 disorders by Worrawat Engchuan : "Psychiatric disorders converge on common pathways but diverge in cellular context, spatial distribution, and directionality of genetic effects." medRxiv 2025.07.11.25331381; 2025.
 
 ## Repository Contents
 The CC-GSBA script is the core pipeline for testing the association between CNVs (Copy Number Variations) aggregated in cortex-specific gene sets and cognitive ability.
