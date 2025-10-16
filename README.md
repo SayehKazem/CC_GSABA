@@ -30,8 +30,12 @@ If you use this project or its code in your research, please cite this repositor
 
 ## Repository Contents
 
--- The core script: The CC-GSBA script is the core pipeline for testing the association between CNVs (Copy Number Variations) aggregated in cortex-specific gene sets and cognitive ability.
--- Data Used in This Repository : This repository's pipeline runs on synthetic and non-sensitive toy data to allow for development, testing, and demonstration without the need for access to real human genetic data. The datasets included are:
+#### The core script:
+The CC-GSBA script is the core pipeline for testing the association between CNVs (Copy Number Variations) aggregated in cortex-specific gene sets and cognitive ability.
+
+#### Data Used in This Repository : 
+
+This repository's pipeline runs on synthetic and non-sensitive toy data to allow for development, testing, and demonstration without the need for access to real human genetic data. The datasets included are:
 
 - Toy Dataset of CNV by Individual: A simulated matrix representing CNV status across individuals.
 
