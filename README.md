@@ -17,7 +17,7 @@ This figure outlines our methodology for associating CNVs with cognitive ability
 Regression Analysis: A regression model is applied to test for a region-specific association between CNV burden and cognitive ability, while controlling for the genome-wide burden and other covariates.  Cognitive ability (Y) is modeled as a function of the Gene-Set Burden and the Genome Burden. The model also adjusts for standard covariates such as age, sex, and ancestry.
 
 <p align="center">
- <img src="CortexWorkflow_v7.png" alt="CortexWorkflow_v7" width="900"/>
+ <img src="CortexWorkflow_v7.png" alt="CC-GSBA_logo" width="900"/>
 </p>
 
 
@@ -48,8 +48,8 @@ This repository's pipeline runs on synthetic and non-sensitive toy data to allow
 - Real Gene Sets: The actual gene sets (derived from CC_GSBA, assigning section) that are used to aggregate CNV burden.
   
 ## File Types
-The main CC-GSBA pipeline is implemented in Python Notebooks ($*.ipynb$).
-The toy datasets and real genesets are all in ($*.tsv$) formats.
+The main CC-GSBA pipeline is implemented in Python Notebooks (*.ipynb).
+The toy datasets and real genesets are all in (*.tsv) formats.
 
 ## Usage
 1. Clone the repository:
