@@ -17,7 +17,7 @@ This figure outlines our methodology for associating CNVs with cognitive ability
 Regression Analysis: A regression model is applied to test for a region-specific association between CNV burden and cognitive ability, while controlling for the genome-wide burden and other covariates.  Cognitive ability (Y) is modeled as a function of the Gene-Set Burden and the Genome Burden. The model also adjusts for standard covariates such as age, sex, and ancestry.
 
 <p align="center">
- <img src="CC-GSBA_Workflow.png" alt="CC-GSBA_Workflow" width="800"/>
+ <img src="CC-GSBA_Workflow.png" alt="CC-GSBA_Workflow" width="900"/>
 </p>
 
 
